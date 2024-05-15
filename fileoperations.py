@@ -1,0 +1,7 @@
+data = open("temp.txt", 'r')
+print(data.readlines())
+data = open("temp.txt", 'w')
+data.write("Hai this is new file")
+data = open("temp.txt", 'a')
+data.write("\nHai this is new appented line")
+data.close()
